@@ -1,9 +1,9 @@
-#include <cstdio>
-//using namespace std;
+#include <iostream>
+using namespace std;
 
 int main()
 {
     int i = 7;
-    printf("The number is %d\n",i);
+    cout << "The number is " << i << endl;
     return 0;
 }
