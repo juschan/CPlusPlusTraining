@@ -1,8 +1,13 @@
 #include <cstdio>
-//#define FOO 10
-#include "conditional.h"
+#define FOO 10
 
 int main() {
-    printf("Number is %d\n", NUMBER);
+    #ifdef FOO
+    int num=FOO;
+    #else
+    int num=5;
+    #endif
+    
+    printf("%d \n", num);
     return 0;
 }
