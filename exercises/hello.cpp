@@ -1,8 +1,12 @@
-#include <cstdio>
+#include <iostream>
 
-
+/*
+Multiple Line comments
+main function
+prints "Hello World"
+*/
 int main()
 {
-    printf("Hello, World!\n");
+    std::cout << "Hello World" << std::endl; //comments
     return 0;
 }
